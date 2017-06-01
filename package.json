@@ -11,6 +11,7 @@
   "license": "ISC",
   "dependencies": {
     "amqp-rpc": "0.0.8",
+    "serialport": "^4.0.7",
     "underscore": "^1.8.3"
   }
 }
