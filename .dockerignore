@@ -1,1 +1,16 @@
 configuration/*
+
+.git
+.gitignore
+LICENSE
+VERSION
+README.md
+Changelog.md
+Makefile
+docker-compose.yml
+node_modules
+test
+Thumbs.db
+.DS_Store
+*.log
+static
