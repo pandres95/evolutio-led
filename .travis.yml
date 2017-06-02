@@ -11,5 +11,5 @@ after_success:
   - if [ "$TRAVIS_BRANCH" == "master" ]; then
     docker build -t pandres95/evolutio-led .;
     docker login -e="$DOCKER_EMAIL" -u="$DOCKER_USERNAME" -p="$DOCKER_PASSWORD";
-    docker push pandres95/api;
+    docker push pandres95/evolutio-led;
     fi
