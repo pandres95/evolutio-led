@@ -6,6 +6,7 @@ WORKDIR     /usr/src/app
 
 # Install app dependencies
 ADD         package.json                /usr/src/app/
+RUN                                     apt-get install build-essential
 RUN                                     npm install --silent
 
 # Bundle app source
