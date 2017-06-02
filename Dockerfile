@@ -1,4 +1,4 @@
-FROM node:7.7.3-slim
+FROM hypriot/rpi-node:7.4.0-slim
 
 # Create app directory
 RUN         mkdir -p /usr/src/app
